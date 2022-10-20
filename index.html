@@ -7,24 +7,34 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="/css/style-icon.css" type="text/css">
         <link rel="stylesheet" href="/css/styles.css" type="text/css">
+        <link rel="stylesheet" href="/css/media.css" type="text/css">
 
 
 
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+
+        <link rel=" stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <title>Document</title>
+        <title>Teatr</title><!-- -->
     </head>
 
 
 
+
     <body class="container-fluid zom130 heder-img"
-        style=" margin:0; padding:0; background-color: #333333;   width: 100%; color: #FFFFFF;font-family: 'Open Sans Condensed';">
+        style=" margin:0; padding:0; background-color: #333333;   width: 100%; color: #FFFFFF;font-family: 'Open Sans';">
 
 
 
 
-
+        <div class="menu__telephone">
+            <a href="tel:+380956507179" class="phone">+38 (095)
+                650-71-79 </a>
+        </div>
 
 
 
@@ -76,7 +86,7 @@
 
 
                         <div class="menu-burger">
-                            <button class="btn btn-primary1" type="button" data-bs-toggle="offcanvas"
+                            <button class="btn1 btn-primary1" type="button" data-bs-toggle="offcanvas"
                                 data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="white" z-index:
                                     -10; class="bi bi-filter-left" viewBox="0 0 16 16">
@@ -87,14 +97,12 @@
 
                             <div class="offcanvas offcanvas-start" data-bs-scroll="false" tabindex="-1"
                                 id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
-                                <div class="offcanvas-header" style="background: #444444;">
-                                    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"><a
-                                            href="tel:+380956507179" class="phone">+38 (095)
-                                            650-71-79 </a></h5>
+                                <div class="offcanvas-header" style="background: #333333;">
+                                    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"></h5>
                                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
                                         aria-label="Закрыть"></button>
                                 </div>
-                                <div class="offcanvas-body" style="background-color: #444444 ;">
+                                <div class="offcanvas-body" style="background-color: #333333 ;">
                                     <ul class="navbar-nav" style="position: sticky; color: #ffff; ">
                                         <li class=" nav-item">
                                             <a class="nav-link active" style="color:#FFFFFF ;" aria-current="page"
@@ -118,13 +126,14 @@
                                         <li class="nav-item ">
 
 
-                                            <a href="#" class="icon-inst"></a>
                                             <a href="#" class="icon-fb"></a>
+
+                                            <a href="#" class="icon-inst"></a>
                                         </li>
                                         <li class="nav-item1"></li>
                                         <li class="nav-item">
-                                            <a href="#" class="link icon-vk"></a>
                                             <a href="#" class="link icon-youtube"></a>
+                                            <a href="#" class="link icon-vk"></a>
                                         </li>
 
 
@@ -144,10 +153,7 @@
                             <a class="navbar-open-menu-link" href="#Postanovka">Наші постановки</a>
                             <a class="navbar-open-menu-link" href="#Partner">партнери театру</a>
                             <a class="navbar-open-menu-link" href="#patronize">контакти</a>
-                            <div class="menu__telephone">
-                                <a href="tel:+380956507179" class="phone">+38 (095)
-                                    650-71-79 </a>
-                            </div>
+
                         </div>
 
 
@@ -169,7 +175,7 @@
                             <div class="block__content">
                                 <div class="block__content column1">
                                     <div class="block__element heder__ContantTitle">
-                                        <p>театр ім. Лесі Українки</p>
+                                        <p class="heder__ContantTitle-text">театр ім. Лесі Українки</p>
                                     </div>
                                     <div class="block__element heder__ContantText">
 
@@ -204,6 +210,8 @@
                             <div class="block__content">
                                 <div class="column2">
                                     <div class="heder__ContantCarusel">
+
+
                                         <div class="carucel">
                                             <div id="carouselExampleInterval" class="carousel slide"
                                                 data-bs-ride="carousel">
@@ -223,30 +231,25 @@
                                                 <div class="bootoom-carucel">
                                                     <button class="carousel-control-prev" type="button"
                                                         data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                                                        <span class="carousel-control-prev-icon"
-                                                            aria-hidden="true"></span>
-                                                        <span class="visually-hidden">Попередній</span>
+                                                        <img src="icon/Arrow-rigth.svg" alt=""></span>
+                                                        <span class="prev-text">Попередній</span>
                                                     </button>
+
+
                                                     <button class="carousel-control-next" type="button"
                                                         data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                                                        <p><span class="carousel-control-next-icon"
-                                                                aria-hidden="true"></span>
-                                                        </p>
-                                                        <p class="next-img"><span class="visually-hidden">Наступний
-                                                            </span>
-                                                        </p>
+                                                        <span class="next-text">Наступний
+                                                        </span><img class="Arrow-left" src="icon/Arrow-left.svg" alt=""
+                                                            style="margin-top:-3px ;"></span>
+
+
                                                     </button>
                                                 </div>
                                             </div>
 
 
                                         </div>
-                                        <p><span class="Line-next">___ </span><span class="Line-prev">___</span><span
-                                                class="next-text">Наступний
-                                            </span>
-                                            <span class="prev-text">
-                                                Попередній</span>
-                                        </p>
+
                                     </div>
                                 </div>
                             </div>
@@ -313,7 +316,7 @@
 
                                     <div class="block">
                                         <!--  flex-container  -->
-                                        <div class="block__row">
+                                        <div class="block__row-1280">
                                             <!--  flex-element  -->
                                             <div class="block__element block__element_31">
                                                 <!--  content  -->
@@ -384,6 +387,7 @@
                                     <div class="bottom-left4 ss">серпень 2023</div>
                                     <div class="top-left4 ss">снігова королева</div>
                                 </div>
+                                <p class="swiper-slide" src="" alt=""></p>
 
 
                             </div>
@@ -395,20 +399,23 @@
                 </div>
 
                 <div class="star-box">
-                    <img class="the-best-theater" src="img/Rectangle 28.png" alt="Rectangle 28.png">
+                    <!--<img class="the-best-theater" src="img/Rectangle 28.png" alt="Rectangle 28.png">-->
                     <div class="box-star">
-                        <p class="the-best-theater-yar">2018 2019 2020</p>
-                        <div class="star-oll">
+                        <div class="the-best-theater-yar">2018 2019 2020</div>
+
+                        <div class="star-oll ">
                             <img class="the-best-theater-star" src="img/star.png" alt="star.png">
                             <img class="the-best-theater-star" src="img/star.png" alt="star.png">
                             <img class="the-best-theater-star" src="img/star.png" alt="star.png">
                             <img class="the-best-theater-star" src="img/star.png" alt="star.png">
                             <img class="the-best-theater-star" src="img/star.png" alt="star.png">
+                            <p class="the-best-theater-text">Найкращий театр
+                                на думку театральних критиків Парижа</p>
                         </div>
+
                     </div>
 
-                    <p class="the-best-theater-text">Найкращий театр
-                        на думку театральних критиків Парижа</p>
+
                 </div>
                 <!--Partner-->
                 <div class="body__Partner-page">
@@ -418,9 +425,9 @@
                         <div class="swiper mySwiper ">
                             <div class="swiper-wrapper">
                                 <img class="swiper-slide mySw" src="img/avada-media 3.png" alt="">
-                                <img class="swiper-slide mySw" src="img/spaceLabLogoSpecial 3.png" alt="">
+                                <img class="swiper-slide mySw2" src="img/spaceLabLogoSpecial 3.png" alt="">
                                 <img class="swiper-slide mySw" src="img/avada-media 3.png" alt="">
-                                <img class="swiper-slide mySw" src="img/spaceLabLogoSpecial 3.png" alt="">
+                                <img class="swiper-slide mySw2" src="img/spaceLabLogoSpecial 3.png" alt="">
 
                             </div>
                         </div>
@@ -429,9 +436,9 @@
                         <div class="swiper mySwiper ">
                             <div class="swiper-wrapper">
 
-                                <img class="swiper-slide mySw" src="img/spaceLabLogoSpecial 3.png" alt="">
+                                <img class="swiper-slide mySw2" src="img/spaceLabLogoSpecial 3.png" alt="">
                                 <img class="swiper-slide mySw" src="img/avada-media 3.png" alt="">
-                                <img class="swiper-slide mySw" src="img/spaceLabLogoSpecial 3.png" alt="">
+                                <img class="swiper-slide mySw2" src="img/spaceLabLogoSpecial 3.png" alt="">
                                 <img class="swiper-slide mySw" src="img/avada-media 3.png" alt="">
                             </div>
                         </div>
@@ -444,91 +451,49 @@
                             <div class="patronize__title">
                                 <div id="patronize" class="TitleText">стати <span class="TitleSpan">меценатом</span>
                                 </div>
-
-
                                 <div class="block">
+                                    <div class="contacts_row">
+                                        <div class="contacts_phone">
+                                            <div class="contacts_phone1">
+                                                <a class="number-phone" href="tel:+38 (095) 850-72-35">+38 (095)
+                                                    850-72-35</a>
+                                                <a class="number-phone" href="tel:+38 (095) 650-71-79">+38 (095)
+                                                    650-71-79</a>
+                                            </div>
+                                            <div class="contacts_phone2">
 
-                                    <div class="block__row">
-
-                                        <div class="block__element block__element_21">
-
-
-                                            <div class="block__content block__content-mail">
-                                                <p><a href="tel:+380956507179" class="number-phone1 "
-                                                        style="color: #ffff ; ">+38
-                                                        (095)
-                                                        850-72-35</a></p>
-                                                <p> <a href="tel:+380956507179" class="number-phone2 "
-                                                        style="color: #ffff ; top: 10px;">+38 (095)
-                                                        650-71-79</a></p>
+                                                <a class="number-phone" class="mailto"
+                                                    href="mailto:info@theater.ua">info@theater.ua</a>
+                                                <p class="number-phone">м. Київ, вул.Богдана Хмельницького 5140</p>
                                             </div>
                                         </div>
-
-
-
-                                        <div class="block__element block__element_22">
-
-                                            <div class="block__content block__content-tel">
-                                                <P class="Mail-teatr"> info@theater.ua</P>
-                                                <p class="adres">м. Київ, вул.Богдана Хмельницького 5140
-                                                </p>
-                                            </div>
-
-                                        </div>
-
-                                        <div class="block__element block__element_23">
-
-                                            <div class="block__content ">
-                                                <input class="to-patronize__input" type="name" value="Ім’я">
-                                                <input class="to-patronize__input" type="surname" value="Компанія">
-                                                <input class="to-patronize__input" type="phone" value="Телефон">
-                                                <input class="to-patronize__input" type="email" value="E-mail">
-                                            </div>
-                                        </div>
-
-                                        <div class="block__element block__element_24">
-
-
-                                            <div class="block__content">
-                                                <div class="patronize__block4">* Ваші дані не будуть
-                                                    передані
-                                                    третім
-                                                    особам, 100%
-                                                    ймовірність. Конфіденційність ми гарантуємо та захищаємо
-                                                    персональні
-                                                    дані.</div>
-                                            </div>
-                                        </div>
-                                        <div class="block__element block__element_25">
-
-                                            <div class="block__content block__content-mailbtn">
-                                                <div class="patronize__block5">
-
-
-                                                    <button class="footer-mail-buttom"> Надіслати</button>
-
-
+                                        <form class="contacts_form" action="#">
+                                            <div class="form">
+                                                <div class="form_left">
+                                                    <input type="text" placeholder="Ім’я">
+                                                    <input type="tel" placeholder="Телефон">
+                                                </div>
+                                                <div class="form_center">
+                                                    <input type="text" placeholder="Компанія">
+                                                    <input type="text" placeholder="E-mail">
+                                                </div>
+                                                <div class="form_right">
+                                                    <textarea name="" placeholder="Повідомлення"></textarea>
                                                 </div>
                                             </div>
-                                        </div>
-
-                                        <div class="block__element block__element_26">
-
-                                            <div class="block__content-mlinp">
-                                                <div class="patronize__block6">
-
-                                                    <div class="card-mail">
-                                                        <textarea
-                                                            class="to-patronize__input card-mail-inp">Повідомлення</textarea>
-                                                    </div>
-
-                                                </div>
+                                            <div class="form_btn">
+                                                <p>* Ваші дані не будуть передані третім особам, 100% ймовірність.
+                                                    Конфіденційність
+                                                    ми
+                                                    гарантуємо та захищаємо персональні дані.</p>
+                                                <button class="submit_btn" type="submit">Надіслати</button>
                                             </div>
-                                        </div>
+                                        </form>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
 
@@ -539,7 +504,7 @@
                     <div class="contaiter container-footer">
                         <div class="footer__line"></div>
                         <div class="footer__block">
-                            <div class="footer__zakaz block__element">© 2022 Національний академічний
+                            <div class="footer__zakaz block__element111">© 2022 Національний академічний
                                 драматичний
                                 театр
                                 ім.
@@ -556,11 +521,20 @@
 
         <!-- Обробка меню у розгорнутому вигляді-->
 
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
+        <!-- Initialize Swiper -->
+        <script>
+            var swiperHeader = new SwiperHeader(".mySwiperHeader", {
+                effect: "cards",
+                grabCursor: true,
+            });
+        </script>
 
         <!-- підключення будстрап скриптів -->
 
-        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
 
         <!-- Initialize Swiper -->
         <script>
@@ -612,7 +586,7 @@
             window.onscroll = function () {
                 var currentScrollPos = window.pageYOffset;
                 if (prevScrollpos > currentScrollPos) {
-                    document.getElementById("navbar-open-menu").style.top = "0px";
+                    document.getElementById("navbar-open-menu").style.top = "-30px";
                 } else {
                     document.getElementById("navbar-open-menu").style.top = "-140px";
                 }
