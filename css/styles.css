@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Open Sans Condensed Light';
+    src: url('OpenSansCondensed-Light.eot');
+    src: url('OpenSansCondensed-Light.eot?#iefix') format('embedded-opentype'),
+        url('OpenSansCondensed-Light.woff') format('woff'),
+        url('OpenSansCondensed-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -114,7 +124,6 @@ a:active {
 
 
 
-
 /*Body*/
 * {
     margin: 0;
@@ -141,7 +150,7 @@ a:active {
     display: none;
 }
 
-.ContactInnfo, .navbar-nav, .navbar-open-menu, .heder__ContantTitle-text, .heder__ContantText, .carucel {
+/* .ContactInnfo, .navbar-nav, .navbar-open-menu, .heder__ContantTitle-text, .heder__ContantText, .carucel {
     font-family: 'Open Sans Condensed';
     font-style: normal;
     font-weight: 700;
@@ -150,10 +159,10 @@ a:active {
     letter-spacing: 0.1em;
     text-transform: uppercase;
 
-    /* white */
+    white 
 
     color: #FFFFFF;
-}
+}*/
 
 /* Меню у розгорнутому вигляді */
 
@@ -235,7 +244,7 @@ body {
 .phone {
     position: absolute;
     color: #FFFFFF;
-
+    font-family: 'Open Sans Condensed';
     margin-left: 82%;
     margin-top: 45px;
 
@@ -378,7 +387,7 @@ li {
 }
 
 
-.carousel-item.active, .carousel-item {
+.carousel-item.active, .carousel-item, .carousel-item-start {
     width: 350px;
     height: 490px;
 
@@ -409,9 +418,10 @@ li {
 }
 
 .img41 {
+
     width: 345px;
     height: 490px;
-    margin-top: -500px;
+    margin-top: -530px;
     margin-left: 5px;
     z-index: -1;
 }
@@ -1350,4 +1360,50 @@ a {
 .footer__block {
     display: flex;
     justify-content: space-between;
+}
+
+
+
+
+
+/* слайдер*/
+
+.swiperNew {
+    width: 240px;
+    height: 320px;
+}
+
+/*.swiperNew-slide :active {
+    opacity: 1;
+    background-color: none;
+}
+*/
+.swiperNew-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.swiperNew-slide:nth-child(1n) {
+    opacity: 1.25;
+    background-color: #d6bb82;
+}
+
+.swiperNew-slide:nth-child(2n) {
+    opacity: 1.25;
+    background-color: #d6bb82;
+}
+
+.swiperNew-slide:nth-child(3n) {
+    opacity: 1.25;
+    background-color: #d6bb82;
+}
+
+.swiperNew-slide:nth-child(4n) {
+    opacity: 1.25;
+    background-color: #d6bb82;
 }
